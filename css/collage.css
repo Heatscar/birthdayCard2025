@@ -81,10 +81,3 @@
         justify-self: auto;
     }
 }
-
-/* Escritorios */
-@media (min-width: 1281px) {
-    .collage {
-        justify-self: auto;
-    }
-}
