@@ -1,0 +1,55 @@
+.collage {
+    width: 600px;
+    height: 400px;
+    background: transparent;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    justify-self: center;
+    position: relative;
+    margin-top: 50vh;
+}
+
+.collage .img {
+    position: absolute;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.collage .img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.collage .img:hover {
+    transform: scale(1.05) rotate(1deg);
+}
+
+/* Posiciones estilo collage */
+.img1 {
+    top: 30px;
+    left: 40px;
+    width: 250px;
+    height: 180px;
+    transform: rotate(-5deg);
+}
+
+.img2 {
+    top: 100px;
+    right: 40px;
+    width: 250px;
+    height: 180px;
+    transform: rotate(5deg);
+}
+
+.img3 {
+    bottom: 30px;
+    left: 180px;
+    width: 250px;
+    height: 180px;
+    transform: rotate(-2deg);
+}
