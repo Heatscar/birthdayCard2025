@@ -7,7 +7,7 @@
     overflow: hidden;
     justify-self: center;
     position: relative;
-    margin-top: 50vh;
+    margin-top: 30vh;
 }
 
 .collage .img {
@@ -52,4 +52,39 @@
     width: 250px;
     height: 180px;
     transform: rotate(-2deg);
+}
+
+/* Teléfonos (vertical) */
+@media (max-width: 480px) {
+    .collage {
+        justify-self: auto;
+    }
+}
+
+/* Teléfonos (horizontal) y tablets pequeñas */
+@media (min-width: 481px) and (max-width: 767px) {
+    .collage {
+        justify-self: auto;
+    }
+}
+
+/* Tablets (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .collage {
+        justify-self: auto;
+    }
+}
+
+/* Tablets (landscape) y laptops pequeños */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .collage {
+        justify-self: auto;
+    }
+}
+
+/* Escritorios */
+@media (min-width: 1281px) {
+    .collage {
+        justify-self: auto;
+    }
 }
